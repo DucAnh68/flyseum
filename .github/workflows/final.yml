@@ -15,7 +15,7 @@ env:
 
 jobs:
   semgrep:
-    name: Semgrep Scan
+    name: Semgrep Scan Git Hub
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
